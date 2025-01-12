@@ -71,7 +71,7 @@ pre {
   <script type="module">
     // Function to make the OpenAI API request
     async function fetchCompletion(userMessage) {
-      const apiKey = 'YOUR API KEY HERE'; // Ensure to handle this securely in production
+      const apiKey = 'YOUR API KEY HERE'; // Make sure you hide this securely if you ever deploy this code!!
       const url = 'https://api.openai.com/v1/chat/completions';
       const headers = {
         'Authorization': `Bearer ${apiKey}`,
